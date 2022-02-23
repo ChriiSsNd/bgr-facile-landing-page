@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'Space Mono', monospace;
+    }
+
+    a {
+        font-family: 'Roboto Mono', monospace;
+    }
+}
